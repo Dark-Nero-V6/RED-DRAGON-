@@ -1,7 +1,7 @@
 {
   "name": "Robin-web-pair",
-  "version": "0.1.0",
-  "description": "A multi-functional WhatsApp bot Web paircode.",
+  "version": "0.2.0",
+  "description": "A multi-functional WhatsApp bot Web QR code pairing",
   "main": "index.js",
   "scripts": {
     "start": "pm2 start index.js --watch --name Robin",
