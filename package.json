@@ -1,12 +1,12 @@
 {
-"name": "Robin-web-pair",
-    "version": "0.0.1",
+"name": "RED DRAGON",
+    "version": "1.0.0",
     "description": "A multi functional whatsapp bot Web paircode.",
     "main": "index.js",
     "scripts": {
-      "start": "pm2 start index.js --deep-monitoring --attach --name Robin",
-      "stop": "pm2 stop robin",
-     "restart": "pm2 restart robin"
+      "start": "pm2 start index.js --deep-monitoring --attach --name RED_DRAGON",
+      "stop": "pm2 stop RED_DRAGON",
+     "restart": "pm2 restart RED_DRAGON"
     },
   "dependencies": {
     "@whiskeysockets/baileys": "^7.0.0-rc.9",
