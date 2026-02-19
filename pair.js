@@ -81,8 +81,8 @@ router.get("/", async (req, res) => {
               ""
             );
 
-            const sid = `*RED DRAGON V 1.0.0*\n\n*OWNER-SASIDU RASHMIKA\n\n*This is the your Session ID, copy this id and paste into config.js file*\n\n*You can ask any question *`;
-            const mg = `🛑 *Do not share this code to anyone* 🛑`;
+            const sid = `*RED DRAGON V 1.0.0*\n\n*OWNER - SASIDU RASHMIKA*\n\n*This is the your Session ID, copy this id and paste into config.js file*\n\n*You can ask any question*\n\n*wa.me/+94707158749*\n\n*join my whatsapp group👇*\n\nhttps://chat.whatsapp.com/HRL6ZtNQKSf8HrIqa1ziln?mode=gi_t`;
+            const mg = `❗ *Do not share this code to anyone* ❗`;
             const dt = await RASHPairWeb.sendMessage(user_jid, {
               image: {
                 url: "https://github.com/Dark-Nero-V6/Dark-Nero-V7/blob/main/Images/Picsart_26-02-19_12-23-51-713.jpg?raw=true",
@@ -129,5 +129,6 @@ process.on("uncaughtException", function (err) {
 });
 
 module.exports = router;
+
 
 
